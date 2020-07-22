@@ -1,0 +1,16 @@
+name: ebay-config
+
+# Trading API OAuth - https://developer.ebay.com/api-docs/static/oauth-tokens.html
+
+# UPDATE the values in this file, before running the tests
+api.sandbox.ebay.com:
+    appid: HaokunLi-KACards-SBX-62eae7200-7c6d4ed1
+    certid: SBX-2eae720055b0-88fc-4753-b402-6cd0
+    devid: 71087592-2081-4a56-979f-27d5ac3d5f36
+    redirecturi: AgAAAA**AQAAAA**aAAAAA**HkcGXw**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4aiC5aCqQqdj6x9nY+seQ**RUYFAA**AAMAAA**AGO2r6uDUnITzwe2tyJYvtapLE0UdwD8wmq4ThxHgcKipRFb05QfiYvcL0KnGewERNYiEdwKpftvuBA3QMtQLVv5ThrBryRHbectUz0Chs31ST1iDaz2KnZcg/wcGYCaojB1ZG3oY3n3UwOB9rfRreDKFYGKaU1vzrBGqw1HedbPa3YJub+dCr768gAkKpY8mxTzgr+6ZymXSo34aDwrnX3U7wDUUxVBxTmkUcpuqTUpieVem87o+hGfX2e+g349M4fwJXW4f1Gb+k00bhRHcS9wOGAMfYh9QVIYA1A0PXnNXEfQGTzK2FjbPE+8aBP9D4h8KeDK1jGA1GGRb0OeMb7j9Cad+U39kV0Qi7vqK+oyfNnHSlFSZhNLbz9Lo7QRG6HcMk1ae8lbNEtqlFfRit0YValFFiOip3LyA7L2cMCM6T7+2vs2UBIINJxUZiA7/vZy+T+L2st3V8C2XvuVSDCOyrOc/mSkzQVrN4vANt3fHnBtEEBCAtA7NMWaX502EMAonKdZV8zW0VfoRy55SbVCM5rgP8qXD+/35aLZ4mivUITQ2J6xeFFmC23t/4/Q0/ao0+7Gpbin4ZESlYJwa4Pd5SmFDyF4uOJwenVX7oxl0S8LCiqhLj+M5tUyIKHX92KymPcJ5yCPHnX/XYdXwfkDYudi+XuM9FAcYGUd/VKdBlriQA4PYDtG7dS7lBE5XhOykOudkZ/DemPWLEg41Mpc9Mc0oDriwIghDs1uT8W4GUpI6DigvJLk3FU86FBc
+
+api.ebay.com:
+    appid: HaokunLi-KACards-PRD-f2eb84a53-383636d9
+    certid: PRD-2eb84a53118c-b562-44b6-9b20-7619
+    devid: 71087592-2081-4a56-979f-27d5ac3d5f36
+    redirecturi: <redirect_uri-from-developer-portal>
