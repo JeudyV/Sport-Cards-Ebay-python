@@ -11,7 +11,6 @@ ebaysdk==2.2.0
 idna==2.10
 lxml==4.5.1
 multidict==4.7.6
-mysqlclient @ file:///D:/FILE%20WORK%20PYTHON/REPOSITORIES/Sport-Cards-Ebay-python/mysqlclient-1.4.6-cp37-cp37m-win_amd64.whl
 numpy==1.19.0
 pandas==1.0.5
 pycares==3.1.1
