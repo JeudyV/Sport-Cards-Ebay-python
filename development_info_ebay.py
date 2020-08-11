@@ -26,7 +26,7 @@ def search_for_articles(year, company, see, player, db_name):
     list_data = []
     for list_dict in dictstr["searchResult"]["item"]:
         data_price = list_dict["sellingStatus"]["currentPrice"]
-        list_dict.setdefault('money', data_price['_currencyId'])
+        list_dict.setdefault('coin', data_price['_currencyId'])
         list_dict.setdefault('price', data_price['value'])
         list_dict.setdefault('startTime', list_dict['listingInfo']['startTime'])
         list_dict.setdefault('endTime', list_dict['listingInfo']['endTime'])
